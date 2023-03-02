@@ -11,7 +11,7 @@ from std_msgs.msg import Header
 
 if __name__ == '__main__':
 	# initialize the node
-	rospy.init_node('manual_initialization', anonymous = True)
+	rospy.init_node('brun_init', anonymous = True)
 	# add a publisher for sending joint position commands
 	pos_pub = rospy.Publisher('/pos_joint_traj_controller/command', JointTrajectory, queue_size = 10)
 	# set a 10Hz frequency for this loop
