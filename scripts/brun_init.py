@@ -34,7 +34,9 @@ if __name__ == '__main__':
 	# set the ideal time to destination
 	pos_cmd_point.time_from_start = rospy.Duration(1.0) # here one second 
 	
+	# rotate wrist joint 2 -90 degrees
 	pos_cmd_point.positions[4] = -math.pi/2
+	# rotate write joint 1 -90 degrees
 	pos_cmd_point.positions[3] = -math.pi/2
 	# just change the value of the command for the second joint
 	pos_cmd_point.positions[1] = -math.pi/3

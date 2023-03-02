@@ -1,0 +1,63 @@
+Script started on 2023-02-28 20:20:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="67" LINES="21"]
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# roscore/
+bash: roscore/: No such file or directory
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# ls
+CMakeLists.txt  package.xml  [0m[01;34mscripts[0m  typescript
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# git     git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   scripts/pickup_motion.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mscripts/brun_init.py[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# git add .
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   scripts/brun_init.py[m
+	[32mmodified:   scripts/pickup_motion.py[m
+	[32mnew file:   typescript[m
+
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# git commit -m  "si  plane ner working for all pi oints. Need to subscribe to toolpose to g et angular vals
+> "
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@af41d748a0d8.(none)')
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# git c ppush    ush origi n master
+Username for 'https://github.com': NicholasBrunsink
+Password for 'https://NicholasBrunsink@github.com': 
+Everything up-to-date
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# [Kgit confi ig --g lobal user.email "nicholasbrunsink@gmail.com"
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# [Kgit config --gllobal user.email "nicholasbrunsink@gmail.com"                                  name "NicholasBrunsink"
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# [Kgit config --gllobal user.name "NicholasBrunsink"lobal user.[11@email "nicholasbrunsink@gmail.com"[Aport01# git push origin master[K[A1d748a0d8:~/catkin_ws/src/robotics_report01# git commit -m "planner working for all points. Need to subscribe to toolpose to geet angular vals
+"
+[master b8f2498] planner working for all points. Need to subscribe to toolpose to get angular vals
+ 3 files changed, 108 insertions(+), 15 deletions(-)
+ create mode 100755 scripts/brun_init.py
+ create mode 100644 typescript
+]0;root@af41d748a0d8: ~/catkin_ws/src/robotics_report01root@af41d748a0d8:~/catkin_ws/src/robotics_report01# [Kgit commit -m ""planner working for all points. Need to subscribe to toolpose to geet angular vals
+"[A[A[Aoot@af41d748a0d8:~/catkin_ws/src/robotics_report01# git config --gl[33Pobal user.name "NicholasBrunsink"
+[K
+[K[A[Alobal user.name "NicholasBrunsink"lobal user.[11@email "nicholasbrunsink@gmail.com"[Aport01# git push origin master[K
+Username for 'https://github.com': NicholasBrunsink
+Password for 'https://
